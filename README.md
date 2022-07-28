@@ -55,10 +55,23 @@ OAuth란?![image](https://user-images.githubusercontent.com/102133961/181448500-
 (왜 그 앱 들어가면 구글에서 뭐 승인할거냐고 뜨는 하얀색 화면 그거 말하는 거다)<br>
 <br>
 Firebase인증 제공업체로는 google/apple/google play game/facebook/github/twitter 등이 있다<br>
-![image](https://user-images.githubusercontent.com/102133961/181448549-0febb47b-3ff7-4089-abde-cddda59d3c18.png)
-xcode 프로젝트와 firebase 연결하기![image](https://user-images.githubusercontent.com/102133961/181448573-640679b3-b639-4a71-bb44-619ad9de3a35.png)
-1.Firebase 프로젝트를 추가하기 위해, 맨 오른쪽 상단에 있는 [콘솔로 이동] 버튼 클릭![image](https://user-images.githubusercontent.com/102133961/181448607-2cc512a2-586f-4066-bd7d-bf36776e3113.png)
-<img width="322" alt="image" src="https://user-images.githubusercontent.com/102133961/181448630-4bc07057-c716-4a78-a52f-9ad87a75b019.png">2.콘솔로 이동한 후, 프로젝트 추가(십자버튼) 클릭<br>
+
+
+![image](https://user-images.githubusercontent.com/102133961/181449399-6f5af107-208c-48cd-9ad4-41bc119236a6.png)
+
+1.Firebase 프로젝트를 추가하기 위해, 맨 오른쪽 상단에 있는 [콘솔로 이동] 버튼 클릭!
+
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/102133961/181449504-463b081a-74ea-4149-9483-b00cba147dec.png">
+
+xcode 프로젝트와 firebase 연결하기
+
+![image](https://user-images.githubusercontent.com/102133961/181448573-640679b3-b639-4a71-bb44-619ad9de3a35.png)
+
+
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/102133961/181448630-4bc07057-c716-4a78-a52f-9ad87a75b019.png">
+
+<br>
+2.콘솔로 이동한 후, 프로젝트 추가(십자버튼) 클릭<br>
 <br>
 3.프로젝트 이름 입력->계속, 애널리시스(데이터 분석)과정은 아직 필요 없다->설정 끄고 만들기<br>
 <br>
@@ -110,4 +123,4 @@ FirebaseApp.conFigure()<br>
 를 추가해주면 초기화가 완료된다<br>
 <br>
 그럼 연결 끝!!<br>
-![image](https://user-images.githubusercontent.com/102133961/181448719-2d4459c3-a4c0-48d8-a1a9-4fb60dd0b009.png)
+
